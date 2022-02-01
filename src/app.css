@@ -1,0 +1,70 @@
+/* APP */
+.app {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/*---------------------------*/
+
+/* APP INF */
+.app_inf h1 {
+  font: 700 8.4rem "Roboto", sans-serif;
+  color: var(--white);
+  text-align: center;
+  margin-bottom: 1.4rem;
+}
+
+.app_inf p {
+  font: 400 2rem "Roboto", sans-serif;
+  color: var(--white);
+  text-align: center;
+  margin-bottom: 4.4rem;
+}
+
+.app_calc {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app_calc input {
+  width: 100%;
+  height: 4.6rem;
+  padding: 1.8rem;
+  font: 400 1.8rem "Roboto", sans-serif;
+  border-radius: 18px;
+  color: var(--white);
+  background-color: var(--background-button);
+}
+
+.app_calc input:nth-of-type(2) {
+  margin-top: 0.8rem;
+}
+
+.app_calc input::placeholder {
+  color: var(--gray);
+}
+
+.app_calc button {
+  width: 100%;
+  height: 5.4rem;
+  margin: 3.2rem 0 5.4rem 0;
+  color: var(--white);
+  font: 700 2.2rem "Roboto", sans-serif;
+  border-radius: 18px;
+  background-color: var(--blue);
+}
+/*---------------------------*/
+
+/* H2 */
+h2 {
+  font: 700 2.4rem "Roboto", sans-serif;
+  color: var(--white);
+  text-align: center;
+}
+/*---------------------------*/

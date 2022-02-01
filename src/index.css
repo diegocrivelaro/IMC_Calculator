@@ -1,0 +1,29 @@
+* {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+:root {
+  --background-button: #44475a;
+  --white: #f8f8f2;
+  --gray: rgb(128, 128, 128);
+  --blue: #357aff;
+  --green: #50fa7b;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #282a36;
+}
+
+button {
+  cursor: pointer;
+}
